@@ -16,4 +16,6 @@ Yearly netCDF files with bias-corrected monthly values of incoming shortwave rad
 ========<br/>
 The training data from the GEBA database for incoming shortwave and diffuse radiation are in the parent directory, named All_v3.csv and All_diff_v3.csv, respectively. The MERRA-2  reanalysis  dataset  can be  found on  NASA’s website  (https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/). <br/><br/>
 
+The BaRAD dataset is licensed under Creative Commons Attribution 4.0 International (CC-BY-4.0).
+
 More details about this dataset can be found in Chakraborty & Lee, 2021
