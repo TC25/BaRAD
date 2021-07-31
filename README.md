@@ -7,7 +7,7 @@ The BaRAD dataset can reduce uncertainties in modelling surface energy and carbo
 The respository is separated into:<br/>
 
 ### Scripts ###
-This includes the script to train the random forest regressions [RandomForest_git_revise.R], the script to bias-correct the monthly MERRA-2 dataset [CorrectMERRAdata_git_revise.R], and the Python notebook to account for physical constraints (like negative direct beam radiation values) and generate yearly netCDF files [Adjust data and write Netcdf file (git).ipynb]<br/>
+This includes the script to train the random forest regressions [RandomForest_git_revise.R], the script to bias-correct the monthly MERRA-2 dataset [CorrectMERRAdata_git_revise.R], the Python notebook to account for physical constraints (like negative direct beam radiation values) and generate yearly netCDF files [Adjust data and write Netcdf file (git).ipynb], and a Python notebook to extract and plot the BaRAD variables for a location [Example.ipynb]<br/>
 ### All_Corrected ###
 Includes csv files of flattened vectors of incoming shortwave and diffuse radiation at the surface at the MERRA-2 native resolution.<br/>
 ### BaRAD_Dataset ###
