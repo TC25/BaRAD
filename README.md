@@ -1,5 +1,9 @@
 # BaRAD
-Scripts and codes used to generate the BaRAD dataset; plus the current version of the dataset under review
+The diffuse component of solar radiation is an important, but understudied, component of the Earth's surface radiation budget. Most global climate models do not archive data on this component and observations of diffuse radiation are rare. Here, we describe the development of a global 40-year (1980 - 2019) monthly radiation database called BaRAD (Bias-adjusted RADiation dataset) that includes the total shortwave radiation and its partitioning into its diffuse and direct beam components. The dataset is based on a random forest algorithm trained using the Global Energy Balance Archive (GEBA) monthly observation network and implemented on the Modern-Era Retrospective analysis for Research and Applications, Version 2 (MERRA-2) dataset at the native MERRA-2 resolution (0.5 degree by 0.625 degree). The dataset picks up the seasonal, latitudinal, and long-term trends in the MERRA-2 data, but with reduced biases than MERRA-2.
+
+The dataset can reduce uncertainties in modelling surface energy and carbon budgets and help optimize the placement of concentrating solar power systems.
+
+Scripts and codes used to generate the BaRAD dataset; plus the current version of the dataset (provisionally accepted for publication) are archived here. 
 
 ## Overview ##
 The respository is separated into:<br/>
@@ -14,4 +18,4 @@ Yearly netCDF files with bias-corrected monthly values of incoming shortwave rad
 ========<br/>
 The training data from the GEBA database for incoming shortwave and diffuse radiation are in the parent directory, named All_v3.csv and All_diff_v3.csv, respectively. The MERRA-2  reanalysis  dataset  can be  found on  NASA’s website  (https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/). <br/><br/>
 
-More details about this dataset can be found in Chakraborty & Lee, Under Review
+More details about this dataset can be found in Chakraborty & Lee, 2021
